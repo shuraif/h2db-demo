@@ -1,5 +1,5 @@
 name: GA test
-  on:
+on:
     push:
       branches: dev
 env:
