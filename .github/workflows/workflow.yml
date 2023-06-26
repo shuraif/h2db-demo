@@ -7,8 +7,7 @@ env:
 
 jobs:
  build_job:
-  run:
-   on: ubuntu
+  runs-on: ubuntu
   steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 17
